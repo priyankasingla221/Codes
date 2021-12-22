@@ -3,12 +3,12 @@ package assignment2;
 public class IncrementOperator {
 
 	public static void main(String[] args) {
-		int x = 2;
+		int x = 1;
 		x = x++ + ++x + x++ + ++x + ++x;
 		System.out.println("Value of x : " + x);
 
 		boolean isEven= (x%2==0);
-		System.out.println("x value is even= " +isEven);
+		System.out.println("x value is even ? = " +isEven);
 		
 		
 	}
